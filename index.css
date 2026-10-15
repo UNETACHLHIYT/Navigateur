@@ -1,0 +1,97 @@
+/* --- STYLE GLOBAL & ARRIÈRE-PLAN --- */
+body {
+    margin: 0;
+    padding: 30px;
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/1200x/86/1e/48/861e48f09989ea7360e871aeba0d16ad.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- LA CARTE PRINCIPALE (CONTENEUR BLANC) --- */
+header, main {
+    background-color: #ffffff;
+    color: #1e293b;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    max-width: 650px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px auto;
+}
+
+/* --- TITRES --- */
+h1 {
+    color: #0f172a;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #1e293b;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #2563eb;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* --- TEXTE --- */
+p {
+    color: #475569;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* --- ARTICLES (BLOCS NAVIGATEURS) --- */
+article {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* --- LIENS / BOUTONS --- */
+a {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+a:hover {
+    background-color: #1d4ed8;
+}
